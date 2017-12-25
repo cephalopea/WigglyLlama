@@ -1,0 +1,29 @@
+##### Rules of use: Below is a comment/update feed to explain what you have done during a work session. Remember to 
+date, sign, time stamp, and mark the biggining of your posts and place them ABOVE others in cronological order, but 
+below the orginization posts (see earlyist two posts as examples). Below posts should not be questions, only progress
+reports.
+
+#### Organization Posts: Currently all work should take place within your personallized scene unless you are collaborating
+in real time with someone on their scene. Looking at other peoples scenes will be helpful just make sure not to save over any work if you are outside
+your scene. A final game scene will be compiled as soon as we understand all the tools we will be using.
+
+# Quick to do list: tweak camera movement, make credits opaque, maybe make some instructions to add to the title screen or 
+run when the game starts?
+-Caiti 12/14/2016 9:41am
+
+# I know how to spawn in sprites and I believe I know how to spawn joints to those sprites. However I am struggling to pull
+the position of an object from a seperate script. ie I have a script on an object and I use GameObject.Find to get a
+different object. I reference what I set the object to in my script and try to get its transform. However this turns up
+errors having found a way to fix it yet. 
+ -Ian 11/30/2016 12:33pm
+
+# So I know how to control the joints via the motor which we can set to controls. However while under control we would have to
+turn the motors on because they dont freely swing when on (so turn off after we stop controlling). Which I think would
+mean a small amount of input lag. Hinge joints remain the best option as far as I can tell so far. If we can find a way to
+the joints externally that would solve a good deal. I have an idea for that but it might make the expanding neck more
+difficult.
+ -Ian 11/28/2016 1:32pm
+
+# I tried wheel joints. There was alot to say that made them good. Actually moving them posed an issue because during
+movement they ignore gravitational pull until reset to zero which would be akward to work with. 
+ -Ian 11/28/2016 12:40pm
